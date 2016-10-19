@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="StatTitle">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="StatValue">
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="NoOverscan" parent="android:Theme.DeviceDefault.Light">
+        <item name="android:windowOverscan">false</item>
+    </style>
+</resources>

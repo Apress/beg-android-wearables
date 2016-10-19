@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/demo_indeterminate"
+        android:title="Indeterminate Slider"
+        android:icon="@drawable/ic_launcher" />
+
+    <item
+        android:id="@+id/demo_determinate"
+        android:title="Determinate Slider"
+        android:icon="@drawable/ic_launcher" />
+
+    <item
+        android:id="@+id/demo_graceperiod"
+        android:title="Grace Period Slider"
+        android:icon="@drawable/ic_launcher" />
+
+    <item
+        android:id="@+id/demo_scroller"
+        android:title="Scroller Slider"
+        android:icon="@drawable/ic_launcher" />
+</menu>

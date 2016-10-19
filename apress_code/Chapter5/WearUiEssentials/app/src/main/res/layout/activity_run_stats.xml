@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        app:layout_box="left"
+        android:paddingLeft="8dip"
+        android:layout_gravity="center_vertical"
+        android:columnCount="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Duration"
+            style="@style/StatTitle" />
+
+        <TextView
+            android:text="Distance"
+            style="@style/StatTitle" />
+
+        <TextView
+            android:id="@+id/duration"
+            android:text="00:00"
+            android:layout_marginRight="16dip"
+            style="@style/StatValue" />
+
+        <TextView
+            android:id="@+id/distance"
+            android:text="0.0"
+            style="@style/StatValue" />
+
+        <TextView
+            android:text="Speed"
+            style="@style/StatTitle"
+            android:layout_marginTop="16dip" />
+
+        <TextView
+            android:text="Calories"
+            style="@style/StatTitle"
+            android:layout_marginTop="16dip" />
+
+        <TextView
+            android:id="@+id/speed"
+            android:text="0.0"
+            style="@style/StatValue" />
+
+        <TextView
+            android:id="@+id/calories"
+            android:text="0.0"
+            style="@style/StatValue" />
+
+    </GridLayout>
+</android.support.wearable.view.BoxInsetLayout>

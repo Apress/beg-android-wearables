@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="40px"
+    android:paddingLeft="40px"
+    android:useDefaultMargins="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="action:"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="30px"
+        android:textAllCaps="true"
+        android:layout_gravity="right"
+        android:layout_column="0"
+        android:layout_row="0" />
+
+    <TextView
+        android:id="@+id/action"
+        android:text="0"
+        android:textSize="40px"
+        android:fontFamily="sans-serif-light"
+        android:minEms="10"
+        android:layout_column="1"
+        android:layout_row="0" />
+
+    <TextView
+        android:text="X:"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="30px"
+        android:textAllCaps="true"
+        android:layout_gravity="right"
+        android:layout_column="0"
+        android:layout_row="1" />
+
+    <TextView
+        android:id="@+id/positionx"
+        android:text="0"
+        android:textSize="40px"
+        android:fontFamily="sans-serif-light"
+        android:layout_column="1"
+        android:layout_row="1" />
+
+    <TextView
+        android:text="Y:"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="30px"
+        android:textAllCaps="true"
+        android:layout_gravity="right"
+        android:layout_column="0"
+        android:layout_row="2" />
+
+    <TextView
+        android:id="@+id/positiony"
+        android:text="0"
+        android:textSize="40px"
+        android:fontFamily="sans-serif-light"
+        android:layout_column="1"
+        android:layout_row="2" />
+
+    <TextView
+        android:id="@+id/fingercount"
+        tools:text="2 fingers detected"
+        android:textSize="34px"
+        android:fontFamily="sans-serif-thin"
+        android:layout_columnSpan="2"
+        android:layout_column="0"
+        android:layout_row="3" />
+
+</GridLayout>

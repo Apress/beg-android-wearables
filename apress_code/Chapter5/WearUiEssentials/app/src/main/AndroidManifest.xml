@@ -1,0 +1,67 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.ocddevelopers.androidwearables.wearuiessentials">
+    <uses-feature android:name="android.hardware.type.watch"/>
+    <application android:allowBackup="true"
+                 android:label="@string/app_name"
+                 android:icon="@drawable/ic_launcher"
+                 android:theme="@android:style/Theme.DeviceDefault.Light">
+
+        <activity
+            android:name=".VocabularyActivity"
+            android:label="Vocab Builder"
+            android:taskAffinity="com.ocddevelopers.androidwearables.wearuiessentials.VocabTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ConfirmationDemoActivity"
+            android:label="Confirmation Demo"
+            android:taskAffinity="com.ocddevelopers.androidwearables.wearuiessentials.ConfirmationTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="android.support.wearable.activity.ConfirmationActivity"
+            android:theme="@style/NoOverscan"/>
+
+        <activity
+            android:name=".DelayedConfirmationActivity"
+            android:label="Delayed Confirmation Demo" >
+        </activity>
+
+        <activity
+            android:name=".RunStatsActivity"
+            android:allowEmbedded="true"
+            android:exported="true"
+            android:label="Run Stats"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RunStatsNotificationActivity"
+            android:label="Run Stats Notification"
+            android:taskAffinity="com.ocddevelopers.androidwearables.wearuiessentials.RunTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".RunStatsNotificationService"
+            android:exported="false" >
+        </service>
+
+    </application>
+
+</manifest>

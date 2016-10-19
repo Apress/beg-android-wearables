@@ -1,0 +1,5 @@
+C:\Users\user\Documents\myprojects\code\HandheldNotifications\app\build\intermediates\classes\debug
+C:\Users\user\Documents\myprojects\code\HandheldNotifications\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-8bc6d1b05262e52087291bd7bf5abc85e60aee5a.jar
+C:\Users\user\Documents\myprojects\code\HandheldNotifications\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-37b8b2d148ff57f5df54462f92c24bfe575aade3.jar
+C:\Users\user\Documents\myprojects\code\HandheldNotifications\app\build\intermediates\pre-dexed\debug\classes-849a8551870967b9b13923395069a5f9ae1a067c.jar
+C:\Users\user\Documents\myprojects\code\HandheldNotifications\app\build\intermediates\pre-dexed\debug\classes-6dad2c832a6a3f08888bb4a1646266b9db908ba7.jar

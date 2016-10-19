@@ -1,0 +1,93 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:text="Standard Notification"
+            android:onClick="onStandardNotificationButtonClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Update Standard Notification"
+            android:onClick="onUpdateStandardNotificationButtonClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Public Notification"
+            android:onClick="onPublicNotificationClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Private Notification"
+            android:onClick="onPrivateNotificationClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Secret Notification"
+            android:onClick="onSecretNotificationClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Private With Public Version"
+            android:onClick="onPrivateNotificationWithPublicVersionClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="High Priority Notification"
+            android:onClick="onHighPriorityNotificationClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="BigTextStyle Notification"
+            android:onClick="onBigTextStyleButtonClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="BigPictureStyle Notification"
+            android:onClick="onBigPictureStyleButtonClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="InboxStyle Notification"
+            android:onClick="onInboxStyleButtonClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Notification Actions"
+            android:onClick="onNotificationActionsButtonClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Custom Notification"
+            android:onClick="onCustomNotificationButtonClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/media_style"
+            android:text="MediaStyle Notification"
+            android:onClick="onMediaStyleNotificationButtonClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>
+<!-- From: file:/C:/Users/user/Documents/myprojects/code/HandheldNotifications/app/src/main/res/layout/activity_main.xml -->

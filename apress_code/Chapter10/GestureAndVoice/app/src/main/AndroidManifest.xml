@@ -1,0 +1,72 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.ocddevelopers.androidwearables.gestureandvoice">
+
+    <uses-permission android:name="com.google.android.glass.permission.DEVELOPMENT" />
+
+    <application android:allowBackup="true"
+                 android:label="@string/app_name"
+                 android:icon="@drawable/ic_launcher">
+
+        <activity android:name=".MotionEventActivity" >
+            <intent-filter>
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.google.android.glass.VoiceTrigger"
+                android:resource="@xml/motionevent_trigger" />
+        </activity>
+
+        <activity android:name=".GestureActivity" >
+            <intent-filter>
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.google.android.glass.VoiceTrigger"
+                android:resource="@xml/gesture_trigger" />
+        </activity>
+
+        <activity android:name=".FingerScrollActivity" >
+            <intent-filter>
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.google.android.glass.VoiceTrigger"
+                android:resource="@xml/scroll_trigger" />
+        </activity>
+
+        <activity android:name=".InertialScrollActivity" >
+            <intent-filter>
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.google.android.glass.VoiceTrigger"
+                android:resource="@xml/inertialscroll_trigger" />
+        </activity>
+
+        <activity android:name=".HeadGestureActivity" >
+            <intent-filter>
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.google.android.glass.VoiceTrigger"
+                android:resource="@xml/headgesture_trigger" />
+        </activity>
+
+        <activity android:name=".VoiceRecognitionActivity">
+            <intent-filter>
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.google.android.glass.VoiceTrigger"
+                android:resource="@xml/voicerec_trigger" />
+        </activity>
+
+    </application>
+
+</manifest>

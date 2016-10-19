@@ -1,0 +1,62 @@
+{
+  "words": [
+    {
+      "word": "wearable",
+      "category": "n",
+      "definition": "A computer that a user wears and can access at any time.",
+      "example_sentence": "Google Glass and Android Wear are recent wearable computers."
+    },
+    {
+      "word": "processor",
+      "category": "n",
+      "definition": "A chip that processes the instructions of a program.",
+      "example_sentence": "Intel is perhaps the most well known company that makes processors.",
+      "synonyms": "central processing unit (CPU), central processor, mainframe"
+    },
+    {
+      "word": "reboot",
+      "category": "v",
+      "definition": "A process that solves at least 90% of computer problems.",
+      "example_sentence": "The programmer tried to fix the car by closing all windows and rebooting it.",
+      "synonyms": "turning off and on, reset"
+    },
+    {
+      "word": "seamless",
+      "category": "adj",
+      "definition": "Having a smooth and inconspicuous transition.",
+      "example_sentence": "Texting while driving is far from a seamless interaction.",
+      "synonyms": "smooth, flawless, unblemished"
+    },
+    {
+      "word": "affordance",
+      "category": "n",
+      "definition": "The possible actions that actor perceives are possible with an object in the environment. Note that this definition does not encompass all possible actions, but only those perceived as possible by the actor.",
+      "example_sentence": "The affordances of the door handle are misleading. Most people pull instead of push."
+    },
+    {
+      "word": "readability",
+      "category": "n",
+      "definition": "A measure of how easy it is to read a block of text as a whole.",
+      "example_sentence": "Increasing the leading of this text could improve its readability."
+    },
+    {
+      "word": "legibility",
+      "category": "n",
+      "definition": "A measure of how easy it is to identify each letter of a typeface.",
+      "example_sentence": "Helvetica is easily one of the most legible fonts."
+    },
+    {
+      "word": "tangible",
+      "category": "adj",
+      "definition": "Something that can be perceived through the sense of touch.",
+      "example_sentence": "A tangible interface conveys information through the sense of touch.",
+      "synonyms": "palpable"
+    },
+    {
+      "word": "debug",
+      "category": "v",
+      "definition": "The process of finding and fixing problems in software or hardware.",
+      "example_sentence": "I can't find the problem even after debugging this program for hours."
+    }
+  ]
+}

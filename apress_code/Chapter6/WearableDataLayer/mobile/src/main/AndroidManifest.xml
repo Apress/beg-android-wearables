@@ -1,0 +1,60 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.ocddevelopers.androidwearables.wearabledatalayer">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application android:allowBackup="true"
+                 android:label="@string/app_name"
+                 android:icon="@drawable/ic_launcher"
+                 android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".GoogleApiClientActivity"
+            android:label="GoogleApiClient Demo"
+            android:taskAffinity="com.ocddevelopers.androidwearables.wearabledatalayer.ApiTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".NodeApiActivity"
+            android:label="Node API Demo"
+            android:taskAffinity="com.ocddevelopers.androidwearables.wearabledatalayer.NodeTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="WearableDataLayer Demo"
+            android:taskAffinity="com.ocddevelopers.androidwearables.wearabledatalayer.MainTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SendImageActivity"
+            android:label="Send Image Demo"
+            android:taskAffinity="com.ocddevelopers.androidwearables.wearabledatalayer.ImageTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

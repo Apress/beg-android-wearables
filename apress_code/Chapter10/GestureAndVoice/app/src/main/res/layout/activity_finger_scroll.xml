@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="40px"
+    android:useDefaultMargins="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="displacement:"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="30px"
+        android:textAllCaps="true"
+        android:layout_gravity="right"
+        android:layout_column="0"
+        android:layout_row="0" />
+
+    <TextView
+        android:id="@+id/displacement"
+        android:text="0"
+        android:textSize="40px"
+        android:fontFamily="sans-serif-light"
+        android:minEms="5"
+        android:layout_column="1"
+        android:layout_row="0" />
+
+    <TextView
+        android:text="delta:"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="30px"
+        android:textAllCaps="true"
+        android:layout_gravity="right"
+        android:layout_column="0"
+        android:layout_row="1" />
+
+    <TextView
+        android:id="@+id/delta"
+        android:text="0"
+        android:textSize="40px"
+        android:fontFamily="sans-serif-light"
+        android:layout_column="1"
+        android:layout_row="1" />
+
+    <TextView
+        android:text="velocity:"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="30px"
+        android:textAllCaps="true"
+        android:layout_gravity="right"
+        android:layout_column="0"
+        android:layout_row="2" />
+
+    <TextView
+        android:id="@+id/velocity"
+        android:text="0"
+        android:textSize="40px"
+        android:fontFamily="sans-serif-light"
+        android:layout_column="1"
+        android:layout_row="2" />
+
+    <TextView
+        android:id="@+id/count"
+        tools:text="42"
+        android:textSize="70px"
+        android:layout_gravity="center_horizontal"
+        android:layout_columnSpan="2"
+        android:layout_column="0"
+        android:layout_row="3" />
+
+</GridLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:columnCount="2"
+    android:paddingTop="40px"
+    android:paddingLeft="40px"
+    android:paddingRight="40px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Azimuth"
+        style="@style/GlassTextSmall"
+        android:textColor="#808080"
+        android:layout_marginRight="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/azimuth"
+        style="@style/GlassTextNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Pitch"
+        style="@style/GlassTextSmall"
+        android:textColor="#808080"
+        android:layout_marginRight="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/pitch"
+        style="@style/GlassTextNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Roll"
+        style="@style/GlassTextSmall"
+        android:textColor="#808080"
+        android:layout_marginRight="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/roll"
+        style="@style/GlassTextNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/warning"
+        style="@style/GlassTextSmall"
+        android:layout_columnSpan="2"
+        android:layout_marginTop="15px"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</GridLayout>

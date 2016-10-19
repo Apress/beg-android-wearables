@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GlassTextSmall">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">32px</item>
+        <item name="android:lineSpacingExtra">8px</item>
+    </style>
+
+    <style name="GlassTextNormal">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">40px</item>
+        <item name="android:lineSpacingExtra">8px</item>
+    </style>
+</resources>
